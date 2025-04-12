@@ -3,14 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   images: {
-    domains: ['localhost', 'vercel.app'],
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/' : '',
-  basePath: '',
-  experimental: {
-    optimizeCss: true
-  }
+  output: 'export',
+  swcMinify: true,
+  basePath: '/Cross-Generation-Knowledge-Transfer-Platform',
+  assetPrefix: '/Cross-Generation-Knowledge-Transfer-Platform'
 };
 
 module.exports = nextConfig; 
