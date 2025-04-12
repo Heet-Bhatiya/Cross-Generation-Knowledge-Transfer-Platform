@@ -78,13 +78,13 @@ next-env.d.ts" > .gitignore
 git init
 
 # Add all files
-git add .
+"C:\Program Files\Git\bin\git.exe" add .
 
 # Create first commit
-git commit -m "Initial commit: CraftBridge platform"
+"C:\Program Files\Git\bin\git.exe" commit -m "Fix deployment issues with improved Next.js and Vercel configuration"
 
 # Add GitHub repository as remote (replace with your repository URL)
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 
 # Push to GitHub
-git push -u origin main
+"C:\Program Files\Git\bin\git.exe" push origin main
